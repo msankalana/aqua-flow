@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".OnboardingActivity"/>
         <activity android:name=".entryscreen"/>
+        <activity android:name=".loginscreen"/>
+        <activity android:name=".homepage"/>
     </application>
 
 </manifest>
