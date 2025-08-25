@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_blue"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="187dp"
+                android:layout_height="105dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logori1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOCATIONS....."
+                android:textSize="45sp"
+                android:layout_marginBottom="20dp"/>
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:queryHint="Search Locations" />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="360dp"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/arugambay" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Arugambay"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="364dp"
+                android:layout_height="300dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mihiripenna" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mihirapenna"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hirikwtiya" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hirikatiya"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hikka" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hikkaduwa"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image6"
+                android:layout_width="360dp"
+                android:layout_height="450dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/snok3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Unawatuna"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="360dp"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dalawellabeach" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dalawella"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="33dp"
+                    android:layout_height="34dp"
+                    android:background="@null"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

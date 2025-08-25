@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/malindulbt2/loginscreen.kt">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/app/src/main/java/com/example/malindulbt2/loginscreen.kt" />
+              <option name="originalContent" value="package com.example.malindulbt2&#10;import android.content.Intent&#10;import android.os.Bundle&#10;import android.widget.Button&#10;import androidx.appcompat.app.AppCompatActivity&#10;&#10;class loginscreen: AppCompatActivity() {&#10;&#10;&#10;//    private lateinit var loginBtn: Button&#10;&#10;        override fun onCreate(savedInstanceState: Bundle?) {&#10;            super.onCreate(savedInstanceState)&#10;            setContentView(R.layout.loginscreen)&#10;&#10;&#10;            val loginBtn = findViewById&lt;Button&gt;(R.id.loginBtn)&#10;            loginBtn.setOnClickListener {&#10;                // directly navigate to Home&#10;                val intent = Intent(this, homepage::class.java)&#10;                startActivity(intent)&#10;&#10;            }&#10;&#10;&#10;        }&#10;    }" />
+              <option name="updatedContent" value="package com.example.malindulbt2&#10;import android.content.Intent&#10;import android.os.Bundle&#10;import android.widget.Button&#10;import androidx.appcompat.app.AppCompatActivity&#10;&#10;class loginscreen: AppCompatActivity() {&#10;    override fun onCreate(savedInstanceState: Bundle?) {&#10;        super.onCreate(savedInstanceState)&#10;        setContentView(R.layout.loginscreen)&#10;&#10;        val loginBtn = findViewById&lt;Button&gt;(R.id.loginBtn)&#10;        loginBtn.setOnClickListener {&#10;            val intent = Intent(this, homepage::class.java)&#10;            startActivity(intent)&#10;            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)&#10;        }&#10;    }&#10;&#10;    override fun onBackPressed() {&#10;        super.onBackPressed()&#10;        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

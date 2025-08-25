@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_blue">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="187dp"
+                android:layout_height="105dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logori1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ICE BATH PLACES..."
+                android:textSize="45sp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/waligamaice" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="waligama"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Rs.2000 - 1 hours"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#003366"
+                android:maxWidth="100dp"
+                android:text="Buy"
+                android:textColor="#ffff"
+                android:textColorLink="#003366"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="360dp"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icebath" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Galle"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Rs.3000 - 2 hours"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#003366"
+                android:maxWidth="100dp"
+                android:text="Buy"
+                android:textColor="#ffff"
+                android:textColorLink="#003366"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="12dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icebath5" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Ahangama"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:text="Rs.2000 - 2 hours"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#003366"
+                android:maxWidth="100dp"
+                android:text="Buy"
+                android:textColor="#ffff"
+                android:textColorLink="#003366"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
